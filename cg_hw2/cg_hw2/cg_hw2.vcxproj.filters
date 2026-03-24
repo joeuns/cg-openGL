@@ -25,5 +25,11 @@
   <ItemGroup>
     <None Include="Transform.vertexshader" />
     <None Include="Color.fragmentshader" />
+    <None Include="Texture.fragmentshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uvtemplate.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -24,7 +24,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Color.fragmentshader" />
+    <None Include="Texture.fragmentshader" />
     <None Include="Transform.vertexshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uvtemplate.bmp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
