@@ -1,0 +1,36 @@
+## [ Visual Studio ]
+# 빌드 결과물 (Debug, Release, x64, x86 등)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 프로젝트 관련 임시 파일
+.vs/
+*.user
+*.aps
+*.pyc
+*.suo
+*.userosscache
+*.sln.docstates
+
+# C++ 컴파일러 중간 파일
+*.obj
+*.sbr
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.res
+*.pch
+*.db
+*.ipch
+
+## [ 기타 ]
+# OS 관련 (Windows)
+Thumbs.db
+Desktop.ini
