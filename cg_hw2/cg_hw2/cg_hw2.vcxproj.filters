@@ -31,5 +31,25 @@
     <Image Include="uvtemplate.bmp">
       <Filter>Source Files</Filter>
     </Image>
+    <Image Include="ear.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="face.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fur.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="texture1.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="texture2.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

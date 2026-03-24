@@ -28,7 +28,15 @@
     <None Include="Transform.vertexshader" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="ear.jpg" />
+    <Image Include="face.jpg" />
+    <Image Include="fur.jpg" />
+    <Image Include="texture1.jpg" />
+    <Image Include="texture2.jpg" />
     <Image Include="uvtemplate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
