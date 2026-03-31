@@ -40,16 +40,16 @@ void render() {
     std::vector<Surface*> scene;
 
     // Define object materials (ka, kd, ks, n)
-    Material mP = { vec3(0.2), vec3(1.0), vec3(0.0), 0.0f };
-    Material mS1 = { vec3(0.2, 0, 0), vec3(1, 0, 0), vec3(0), 0.0f };
-    Material mS2 = { vec3(0, 0.2, 0), vec3(0, 0.5, 0), vec3(0.5), 32.0f };
-    Material mS3 = { vec3(0, 0, 0.2), vec3(0, 0, 1), vec3(0), 0.0f };
+    Material mP = { vec3(0.2f), vec3(1.0f), vec3(0.0f), 0.0f };
+    Material mS1 = { vec3(0.2f, 0.0f, 0.0f), vec3(1.0f, 0.0f, 0.0f), vec3(0.0f), 0.0f };
+    Material mS2 = { vec3(0.0f, 0.2f, 0.0f), vec3(0.0f, 0.5f, 0.0f), vec3(0.5f), 32.0f };
+    Material mS3 = { vec3(0.0f, 0.0f, 0.2f), vec3(0.0f, 0.0f, 1.0f), vec3(0.0f), 0.0f };
 
     // Initialize scene geometry
     scene.push_back(new Plane(-2.0f, mP));
-    scene.push_back(new Sphere(vec3(-4, 0, -7), 1.0f, mS1));
-    scene.push_back(new Sphere(vec3(0, 0, -7), 2.0f, mS2));
-    scene.push_back(new Sphere(vec3(4, 0, -7), 1.0f, mS3));
+    scene.push_back(new Sphere(vec3(-4.0f, 0.0f, -7.0f), 1.0f, mS1));
+    scene.push_back(new Sphere(vec3(0.0f, 0.0f, -7.0f), 2.0f, mS2));
+    scene.push_back(new Sphere(vec3(4.0f, 0.0f, -7.0f), 1.0f, mS3));
 
     // Main Ray Tracing Loop
     for (int j = 0; j < H; j++) {

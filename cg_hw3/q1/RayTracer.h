@@ -36,11 +36,13 @@ public:
         float discriminant = b * b - 4 * a * c;
 
         if (discriminant > 0) {
+            // 1st Check: Try the closer intersection (Entry point)
             float t = (-b - glm::sqrt(discriminant)) / (2.0f * a);
             if (t > tMin && t < tMax) {
                 tHit = t;
                 return true;
             }
+            // 2nd Check: Try the farther intersection (Exit point)
             t = (-b + glm::sqrt(discriminant)) / (2.0f * a);
             if (t > tMin && t < tMax) {
                 tHit = t;

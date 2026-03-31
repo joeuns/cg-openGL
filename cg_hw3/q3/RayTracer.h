@@ -11,7 +11,7 @@ struct Material {
     vec3 ka;    // Ambient coefficient
     vec3 kd;    // Diffuse coefficient
     vec3 ks;    // Specular coefficient
-    float n;    // Specular power (shininess)
+    float n = 0.0f;    // Specular power (shininess)
 };
 
 // Basic Ray class: P(t) = origin + t * direction
