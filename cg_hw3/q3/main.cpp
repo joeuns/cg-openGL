@@ -6,8 +6,8 @@
 // Default resolution is 1024 x 1024 as per assignment requirements.
 // NOTE: If real-time performance (Mouse Tracking/Animation) is slow on your machine, 
 // feel free to lower the resolution to 512 or 256 for a smoother experience.
-const int W = 512;
-const int H = 512;
+const int W = 1024;
+const int H = 1024;
 //---------------------------------------//
 
 unsigned char pixels[W * H * 3];
